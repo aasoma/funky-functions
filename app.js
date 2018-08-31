@@ -3,7 +3,7 @@ window.onload = function(){
         salsa: function (){
         var danceMoves = [3,2,1,5,6];
         var stepNum = 0;
-        for (var i = 0; i<danceMoves.length ; i++){
+        for (var i = 0; i < danceMoves.length ; i++){
         stepNum = stepNum + danceMoves[i];
         }
         
@@ -20,14 +20,18 @@ window.onload = function(){
         var Chicken = {
         funky1: function(){
        clucksNum =clucksNum + 10;
-        return(clucclucksNum);
+        return(clucksNum);
         },
+
+
         funky2:function(){
         return(Chicken.funky1());
         }
         }
         return(chicken.funky2());
         },
+
+
         shuffle: function(){
         var type = ['melbourne' , 'electronic' , 'hardstyle']
         var myShuffle = {
